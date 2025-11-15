@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: skoltech
+    relative_path: urdf/UR3_with_gripper.urdf
+  srdf:
+    relative_path: config/ur3.srdf
+  package_settings:
+    author_name: nktchen
+    author_email: chennikita70@gmail.com
+    generated_timestamp: 1759784865
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

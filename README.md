@@ -29,6 +29,6 @@ ros2 launch ur3_moveit_config demo.launch.py
 
 6. run IsaacSim and open scene 
 ```
-File -> Open -> path_to_your_moveit_workspace/src/ur3_moveit_config/omg.usd
+File -> Open -> path_to_your_moveit_workspace/src/ur3_moveit_config/isaasim_files/omg.usd
 ```
 and run the simulation
