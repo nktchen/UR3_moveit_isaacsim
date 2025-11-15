@@ -10,6 +10,10 @@ cd ~/ws_moveit/src
 ```bash
 git clone https://github.com/nktchen/UR3_moveit_isaacsim.git ur3_moveit_config
 ```
+or for Linux
+```bash
+git clone git@github.com:nktchen/UR3_moveit_isaacsim.git ur3_moveit_config
+```
 
 3. build
 ```bash
