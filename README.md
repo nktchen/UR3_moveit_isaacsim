@@ -31,4 +31,4 @@ ros2 launch ur3_moveit_config demo.launch.py
 ```
 File -> Open -> path_to_your_moveit_workspace/src/ur3_moveit_config/isaasim_files/omg.usd
 ```
-and run the simulation
+7. run the simulation
