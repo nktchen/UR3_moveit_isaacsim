@@ -1,7 +1,7 @@
 # UR3_moveit_isaacsim
 Use Moveit motion planning for UR3 in Isaac Sim.
 # how to run it
-1. navigate to your src directory in your moveit workspace (if you don't have one, then refer to the [moveit docs](https://www.genome.gov/](https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.html))
+1. navigate to your src directory in your moveit workspace (if you don't have one, then refer to the [moveit docs](https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.html))
 ```bash
 cd ~/ws_moveit/src
 ```
