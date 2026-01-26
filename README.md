@@ -8,7 +8,10 @@ cd ~/ws_moveit/src
 
 2. clone this repo
 ```bash
-git clone https://github.com/nktchen/UR3_moveit_isaacsim.git .
+git clone https://github.com/nktchen/UR3_moveit_isaacsim.git tmp_folder
+cp -r tmp_folder/* ./
+rm -rf tmp_folder
+
 ```
 
 2.5. delete this README.md from moveit workspace. (to keep your moveit_ws clean)
