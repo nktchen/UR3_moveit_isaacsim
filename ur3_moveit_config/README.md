@@ -8,13 +8,18 @@ cd ~/ws_moveit/src
 
 2. clone this repo
 ```bash
-git clone https://github.com/nktchen/UR3_moveit_isaacsim.git ur3_moveit_config
+git clone https://github.com/nktchen/UR3_moveit_isaacsim.git .
+```
+
+2.5. delete this README.md from moveit workspace. (to keep your moveit_ws clean)
+```bash
+rm README.md
 ```
 
 3. build
 ```bash
 cd ./../
-colcon build --packages-select ur3_moveit_config
+colcon build --packages-select ur3_moveit_config skoltech
 ```
 
 4. source the workspace
